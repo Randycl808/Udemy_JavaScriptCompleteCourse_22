@@ -27,7 +27,7 @@ const BMIJohn = johnWeightKg / (johnHeightM * johnHeightM);
 
 const marcHigherBMI = BMIMarc > BMIJohn;
 //^True
-const JohnHigherBMI = BMIJohn > BMIMarc;
+const johnHigherBMI = BMIJohn > BMIMarc;
 //^False
 
-console.log(BMIMarc, BMIJohn, marcHigherBMI, JohnHigherBMI);
+console.log(BMIMarc, BMIJohn, marcHigherBMI, johnHigherBMI);
